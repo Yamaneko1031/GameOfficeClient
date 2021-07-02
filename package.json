@@ -1,0 +1,12 @@
+{
+  "name": "TestGame",
+  "type": "3d",
+  "uuid": "5e6d15c2-f6e1-4e81-b5c2-816ef1e8de3b",
+  "version": "3.1.1",
+  "creator": {
+    "version": "3.1.1"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.1.2"
+  }
+}
