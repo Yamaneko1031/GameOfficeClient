@@ -1,4 +1,14 @@
-import { _decorator, Component, Node, Button, director, EditBox } from "cc";
+import {
+  _decorator,
+  Component,
+  Node,
+  Button,
+  director,
+  EditBox,
+  ResolutionPolicy,
+  game,
+  view
+} from "cc";
 import { UserInfo } from "./UserInfo";
 import SocketUtil from "./SocketUtil";
 const { ccclass, property } = _decorator;
@@ -22,6 +32,18 @@ export class ChatRoomIn extends Component {
     if (this.button) {
       this.button.node.on(Button.EventType.CLICK, this.callback, this);
     }
+    console.log(view);
+    // view.setResizeCallback(() => {
+    //   console.log(view.getVisibleSizeInPixel());
+    //   console.log(view.getVisibleSize());
+    //   console.log(view.getFrameSize());
+    //   console.log(view.getDesignResolutionSize());
+    //   console.log(view.getDevicePixelRatio());
+    //   console.log(view.getVisibleOrigin());
+    //   console.log(view.getVisibleOriginInPixel());
+    // });
+    game.config.renderMode = 1;
+    game.setFrameRate(30);
   }
 
   callback(button: Button) {
@@ -35,9 +57,13 @@ export class ChatRoomIn extends Component {
     }
   }
 
-  // update (deltaTime: number) {
-  //     // [4]
-  // }
+  update(deltaTime: number) {
+    // [4]
+    // console.log(view.getScaleX());
+    // console.log(view.getScaleY());
+    view.resizeWithBrowserSize(true);
+    // view.setResolutionPolicy(ResolutionPolicy.UNKNOWN);
+  }
 }
 
 /**

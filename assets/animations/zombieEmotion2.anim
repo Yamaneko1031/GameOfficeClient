@@ -4,21 +4,34 @@
     "_name": "zombieEmotion2",
     "_objFlags": 0,
     "_native": "",
-    "sample": 60,
+    "sample": 30,
     "speed": 1,
     "wrapMode": 1,
-    "events": [],
+    "events": [
+      {
+        "frame": 0.6333333333333333,
+        "func": "",
+        "params": []
+      },
+      {
+        "frame": 0.6333333333333333,
+        "func": "emotionEnd",
+        "params": [
+          2
+        ]
+      }
+    ],
     "enableTrsBlending": false,
-    "_duration": 0.5166666666666667,
+    "_duration": 0.6333333333333333,
     "_keys": [
       [
         0,
-        0.08333333333333333,
-        0.16666666666666666,
-        0.25,
-        0.3333333333333333,
-        0.4166666666666667,
-        0.5
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6
       ]
     ],
     "_stepness": 0,
@@ -67,7 +80,7 @@
       }
     ],
     "_commonTargets": [],
-    "_hash": 1792593774
+    "_hash": 331904336
   },
   {
     "__type__": "cc.animation.ComponentPath",

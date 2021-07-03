@@ -2,7 +2,7 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "2b06a754-a220-4c03-8e21-e63832927910",
+  "uuid": "d67887ef-4023-42d4-afc2-57b8c91a2f13",
   "files": [
     ".png",
     ".json"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "2b06a754-a220-4c03-8e21-e63832927910@6c48a",
+      "uuid": "d67887ef-4023-42d4-afc2-57b8c91a2f13@6c48a",
       "displayName": "appear_5",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "2b06a754-a220-4c03-8e21-e63832927910"
+        "imageUuidOrDatabaseUri": "d67887ef-4023-42d4-afc2-57b8c91a2f13"
       },
       "ver": "1.0.21",
       "imported": true,
@@ -33,20 +33,20 @@
     },
     "f9941": {
       "importer": "sprite-frame",
-      "uuid": "2b06a754-a220-4c03-8e21-e63832927910@f9941",
+      "uuid": "d67887ef-4023-42d4-afc2-57b8c91a2f13@f9941",
       "displayName": "appear_5",
       "id": "f9941",
       "name": "spriteFrame",
       "userData": {
-        "trimType": "auto",
+        "trimType": "none",
         "trimThreshold": 1,
         "rotated": false,
-        "offsetX": 15.5,
-        "offsetY": -82,
-        "trimX": 32,
-        "trimY": 165,
-        "width": 187,
-        "height": 122,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 220,
+        "height": 288,
         "rawWidth": 220,
         "rawHeight": 288,
         "borderTop": 0,
@@ -55,7 +55,7 @@
         "borderRight": 0,
         "packable": true,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "2b06a754-a220-4c03-8e21-e63832927910@6c48a",
+        "imageUuidOrDatabaseUri": "d67887ef-4023-42d4-afc2-57b8c91a2f13@6c48a",
         "atlasUuid": ""
       },
       "ver": "1.0.9",
@@ -69,6 +69,6 @@
   "userData": {
     "hasAlpha": true,
     "type": "sprite-frame",
-    "redirect": "2b06a754-a220-4c03-8e21-e63832927910@f9941"
+    "redirect": "d67887ef-4023-42d4-afc2-57b8c91a2f13@f9941"
   }
 }

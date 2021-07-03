@@ -9,20 +9,19 @@
     "wrapMode": 2,
     "events": [],
     "enableTrsBlending": false,
-    "_duration": 1.7,
+    "_duration": 0.9333333333333333,
     "_keys": [
       [
         0,
-        0.16666666666666666,
-        0.3333333333333333,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
         0.5,
-        0.6666666666666666,
-        0.8333333333333334,
-        1,
-        1.1666666666666667,
-        1.3333333333333333,
-        1.5,
-        1.6666666666666667
+        0.6,
+        0.7,
+        0.8,
+        0.9
       ]
     ],
     "_stepness": 0,
@@ -42,7 +41,7 @@
               "__expectedType__": "cc.SpriteFrame"
             },
             {
-              "__uuid__": "a8bae248-0979-4616-ada6-4ee425133c8f@f9941",
+              "__uuid__": "1373859b-e417-421a-8e23-0ba2037eb5d4@f9941",
               "__expectedType__": "cc.SpriteFrame"
             },
             {
@@ -76,10 +75,6 @@
             {
               "__uuid__": "a8bae248-0979-4616-ada6-4ee425133c8f@f9941",
               "__expectedType__": "cc.SpriteFrame"
-            },
-            {
-              "__uuid__": "836345e5-5e30-44bb-8c7f-4f60a583bdf1@f9941",
-              "__expectedType__": "cc.SpriteFrame"
             }
           ],
           "easingMethods": {}
@@ -87,7 +82,7 @@
       }
     ],
     "_commonTargets": [],
-    "_hash": 2330797220
+    "_hash": 979466077
   },
   {
     "__type__": "cc.animation.ComponentPath",
